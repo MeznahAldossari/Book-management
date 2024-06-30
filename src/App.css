@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #F5F7F8;
+    font-family:   "Rubik", sans-serif !important;
+
+}
+.box{
+    border: 1px solid rgb(216, 213, 213);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+.viewBook{
+    background-color: #f5bd72;
+    
+}
+.li:hover{
+    color: #f5bd72;
+}
+nav{
+    position: fixed;
+    z-index: 1000;
+    padding: 15px; 
+    /* box-shadow: 0 1px 1px 0 rgba(188, 185, 185, 0.2), 0 6px 20px 0 rgba(180, 178, 178, 0.19); */
+    border-bottom: 1px solid #d5d1d1;
+}
+
+.viewBook:hover{
+    background-color: #f4ac4e;
+
+}
+
+
+.bookCard{
+    border-radius: 2px !important;
+}
+.myCards{
+    border-radius: 6px !important; 
+}
+/* .bookCard:hover{
+    transform: scale(1.05);
+
+} */
+li:hover{
+    color: black
+}
